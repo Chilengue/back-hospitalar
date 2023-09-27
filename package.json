@@ -1,0 +1,28 @@
+{
+    "name": "back-hospitalar",
+    "version": "1.0.0",
+    "description": "",
+    "main": " src/server/Server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/server/Server.js",
+        "dev": "nodemon  src/server/Server.js",
+        "build": "nodemon  src/server/Server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "helmet": "^7.0.0",
+        "mongodb": "^6.1.0",
+        "mongoose": "^7.5.2",
+        "nodemon": "^3.0.1",
+        "swagger": "^0.7.5",
+        "validator": "^13.11.0"
+    },
+    "devDependencies": {
+        "prettier": "3.0.3",
+        "prettier-eslint": "^15.0.1"
+    }
+}
